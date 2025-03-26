@@ -8,7 +8,7 @@ In the maze matrix, 0 means the block is a dead end and 1 means the block can be
 
 # Game Demo
 
-
+<img src="https://github.com/Sanjana-1263/MAZE-GAME/raw/main/GAME%20DEMO.png" alt="Game Demo" width="400"/>
 
 
 If we reach the red block in the above figure(Destination) within 10 seconds then the victory screen appears else you lose and after a time delay we exit from the game window.
