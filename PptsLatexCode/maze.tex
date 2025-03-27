@@ -1,0 +1,123 @@
+\documentclass[14pt]{beamer}
+\title{Maze}
+\date{27-03-2021}
+\author[Bvrith]{Harini: 19WH1A0510: CSE \\  Nidhi: 19WH1A0507: CSE \\ Mounika: 20WH5A0513: CSE \\ Preethi: 19WH1A0215: EEE  \\ Sanjana: 19WH1A1263: IT}
+\usepackage{xcolor}
+\definecolor{blendedblue}{rgb}{0.2,0.2,0.7}
+\institute{\normalsize{\color{blendedblue}{BVRIT HYDERABAD College of Engineering for Women}}}
+\usefonttheme{serif}
+\usepackage{bookman}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usecolortheme{orchid}
+\beamertemplateballitem
+\graphicspath{./home/user/Desktop/maze}
+\graphicspath{./home/user/Desktop/maze}
+\graphicspath{./home/user/Desktop/maze}
+\graphicspath{./home/user/Desktop/maze}
+\graphicspath{./home/user/Desktop/maze}
+\graphicspath{./home/user/Desktop/maze}
+
+\begin{document}
+    \begin{frame}
+        \titlepage
+    \end{frame}
+    \begin{frame}
+	\frametitle{Problem Statement}
+        \begin{itemize}
+	    \item Consider a person placed at (0, 0) in a square matrix of order N*N. It has to reach the destination at (n-1, n-1)
+	    \item Find a possible path that the person can take to reach from source to destination
+	    \item Directions in which the person can move are ‘U'(up), ‘D'(down), ‘L’ (left), ‘R’ (right)
+	\end{itemize}
+    \end{frame}
+    \begin{frame}
+	    \frametitle{Problem Statement}
+	    \begin{figure}[htp]
+                        \centering
+                         \includegraphics[width=10cm]{maze1.png}
+			 \caption{Maze Example}
+                 \end{figure}
+    \end{frame}
+    \begin{frame}
+	\frametitle{Approach}
+	\begin{itemize}
+		\item We first start from the source and move in a direction where the path is not blocked (not 0)
+		\item If taken path makes us reach the destination then the problem is solved else, we backtrack
+	\end{itemize}
+    \end{frame}
+    \begin{frame}
+	\frametitle{Code}
+	    \begin{figure}[htp]
+                        \centering
+                         \includegraphics[width=10cm]{code1.png}
+                 \end{figure}
+    \end{frame}
+    \begin{frame}
+	\frametitle{Code}
+	    \begin{figure}[htp]
+		    \centering
+		    \begin{minipage}[b]{0.45\textwidth}
+			    \includegraphics[width=\textwidth]{code2.png}
+		    \end{minipage}
+		    \hfill
+		    \begin{minipage}[b]{0.45\textwidth}
+			    \includegraphics[width=\textwidth]{code3.png}
+		    \end{minipage}
+	    \end{figure}
+    \end{frame}
+    \begin{frame}
+	\frametitle{Statistics}
+	\begin{itemize}
+		\item Lines of Code - 63
+		\item Number of functions - 4
+	\end{itemize}
+    \end{frame}
+    \begin{frame}
+	\frametitle{Tools}
+	\begin{itemize}
+		\item OS - Ubuntu, Windows
+		\item Programming language (version Python 3.8.1)
+		\item GitLab
+	\end{itemize}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Learnings}
+	\begin{itemize}
+	    \item Backtracking 
+	    \item Inserting Images in Latex
+	    \item Inserting Hyperlinks in latex
+	    \item GIT - push and pull
+	\end{itemize}
+    \end{frame}
+    \begin{frame}
+	\frametitle{Challenges}
+        \begin{itemize}
+	    \item Matrix as an input from user
+	    \item Implementing Recursion
+	    \item GIT - pushing files to gitlab
+        \end{itemize}
+    \end{frame}
+    \begin{frame}
+	\frametitle{GIT Repo}
+	\begin{itemize}
+		\begin{figure}[htp]
+			\centering
+			\includegraphics[width=10cm][repo.jpeg]
+		\end{figure}
+	\end{itemize}
+    \end{frame}
+    \begin{frame}
+	\frametitle{Demo}
+	     \begin{figure}[htp]
+                        \centering
+                         \includegraphics[width=10cm]{output.png}
+          \end{figure}	
+    \end{frame}
+    \begin{frame}
+	\begin{center}
+	     THANK YOU
+	\end{center}
+    \end{frame}
+\end{document}
+
